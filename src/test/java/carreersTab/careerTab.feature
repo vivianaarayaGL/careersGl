@@ -1,0 +1,1 @@
+Feature: Navigate to careers tab
