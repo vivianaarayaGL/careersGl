@@ -7,25 +7,24 @@ import org.openqa.selenium.WebElement;
 
     public class careerPage {
         protected WebDriver driver;
-        private By signInButton = By.linkText("Sign in");
+        private By careersTab = By.id("menu-item-409");
 
-        public BasePage(WebDriver driver) {
+        public careerPage(WebDriver driver) {
             this.driver = driver;
         }
 
-        public SignInPage clickSignInBtn() {
-            System.out.println("clicking on sign in button");
-            WebElement signInBtnElement=driver.findElement(signInButton);
-            if(signInBtnElement.isDisplayed()||signInBtnElement.isEnabled())
-                signInBtnElement.click();
-            else System.out.println("Element not found");
-            return new SignInPage(driver);
+        public careerPage() {
         }
 
-        public void clickImagesLink() {
-            //It should have a logic to click on images link
-            //And it should navigate to google images page
+        public careerPage clickcareerTab () {
+            System.out.println("clicking on careers tab");
+            WebElement careertabElement=driver.findElement(careersTab);
+            if(careertabElement.isDisplayed()||careertabElement.isEnabled())
+                careertabElement.click();
+            else System.out.println("Element not found");
+            return new careerPage(driver);
         }
+
 
         public String getPageTitle(){
             String title = driver.getTitle();
@@ -33,8 +32,7 @@ import org.openqa.selenium.WebElement;
         }
 
         public boolean verifyBasePageTitle() {
-            String expectedPageTitle="Google";
+            String expectedPageTitle="Jobs at Application Development Companies | Gorilla Logic";
             return getPageTitle().contains(expectedPageTitle);
         }
     }
-}

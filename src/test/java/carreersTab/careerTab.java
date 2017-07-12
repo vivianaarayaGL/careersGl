@@ -7,13 +7,14 @@ import cucumber.runtime.PendingException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import utilities.browserSetup;
+import utilities.careerPage;
 
 
-public class careerTab {
+public class careerTab extends careerPage {
+
+
     @Given("^I am on the Gorilla Logic homepage$")
-    public void iAmOnGorillaPage() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    public void iAmOnGorillaPage(){
     }
 
     @When("^I click on Careers Tab$")
