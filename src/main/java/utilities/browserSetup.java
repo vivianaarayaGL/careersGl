@@ -33,7 +33,6 @@ public class browserSetup {
 
     private static WebDriver initChromeDriver(String appURL) {
         System.out.println("Launching google chrome with new profile..");
-        //Esta linea la quito porque tenemos el driver dentro del proyecto no ocupamos setear donde buscar el driver
        // System.setProperty("webdriver.chrome.driver", driverPath + "chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
