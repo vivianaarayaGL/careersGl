@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ac270e8-77d4-4ce8-97f6-0a104e514ce7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utilities/browserSetup.java" afterPath="$PROJECT_DIR$/src/main/java/utilities/browserSetup.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/carreersTab/careerTab.java" afterPath="$PROJECT_DIR$/src/test/java/carreersTab/careerTab.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,8 +39,8 @@
       <file leaf-file-name="careerTab.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/carreersTab/careerTab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,8 +86,8 @@
         <option value="$PROJECT_DIR$/src/test/java/carreersTab/careerTab.feature" />
         <option value="$PROJECT_DIR$/src/test/java/careertab.java" />
         <option value="$PROJECT_DIR$/src/test/java/careerTab.java" />
-        <option value="$PROJECT_DIR$/src/test/java/carreersTab/careerTab.java" />
         <option value="$PROJECT_DIR$/src/main/java/utilities/browserSetup.java" />
+        <option value="$PROJECT_DIR$/src/test/java/carreersTab/careerTab.java" />
       </list>
     </option>
   </component>
@@ -736,24 +734,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utilities/careerPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/careerTab.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/carreersTab/careerTab.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utilities/browserSetup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -764,10 +746,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/carreersTab/careerTab.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/carreersTab/careerTab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -8,9 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import utilities.browserSetup;
 
-/**
- * Created by mirna on 7/12/17.
- */
+
 public class careerTab {
     @Given("^I am on the Gorilla Logic homepage$")
     public void iAmOnGorillaPage() throws Throwable {
